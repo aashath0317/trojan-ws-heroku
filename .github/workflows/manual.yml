@@ -17,4 +17,4 @@ jobs:
           stack: "container"
           region: "eu"
         env:
-          HD_CONFIG_FILE_URL: ${{secrets.PASSWORD}}
+          HD_PASSWORD: ${{secrets.PASSWORD}}
