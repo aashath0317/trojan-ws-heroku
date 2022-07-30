@@ -9,9 +9,9 @@ jobs:
       - uses: actions/checkout@v2
       - uses: akhileshns/heroku-deploy@v3.12.12
         with:
-          heroku_api_key: c1e44dbb-e235-4747-a87b-e899ddb78ec6
-          heroku_app_name: aasath-vpn3
-          heroku_email: aashath-vpn3@c2ptech.com
+          heroku_api_key: e5d4b3c0-71c7-451d-ad76-bc3641423c5a
+          heroku_app_name: aasath-vpn4
+          heroku_email: aashath-vpn4@c2ptech.com
           usedocker: true
           docker_heroku_process_type: web
           stack: "container"
